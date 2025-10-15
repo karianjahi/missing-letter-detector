@@ -20,10 +20,10 @@ const fearNotLetter = (stringOfLetters) => {
     for (let i=firstLetterIndex; i<=lastLetterIndex; i++) allLettersBetween += letters[i] ;
 
     // split the between letters
-    allLettersBetweenArray = allLettersBetween.split("")
+    const allLettersBetweenArray = allLettersBetween.split("")
         
     // split input letters
-    inputLettersArray = stringOfLetters.split("");
+    const inputLettersArray = stringOfLetters.split("");
 
     // get the missing letter in the sequence
     for (let letter of allLettersBetweenArray) {
